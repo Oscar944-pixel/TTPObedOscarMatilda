@@ -1,4 +1,8 @@
-
+#---PROGRAM DESCRIPTION---
+# This small program enables a user to track his/her daily wages by:
+# entering the time his/her work satarted and the time he/she ended.
+# the program goes ahead to calculate the time difference and return 
+#the daily wage based on the time spent at work.
 #importing python libraries needed
 from datetime import datetime 
 from datetime import timedelta
