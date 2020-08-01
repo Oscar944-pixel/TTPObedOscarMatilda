@@ -5,7 +5,7 @@ from datetime import timedelta
 import csv
 
 # Printing a message out to the user to understand what to do
-print('\nTime Tracker')
+print('\nTIME TRACKING PROGAM')
 print('Please Enter Date and Time at start of work')
 print('-------------------------------------------')
 
