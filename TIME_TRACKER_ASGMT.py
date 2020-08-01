@@ -67,3 +67,14 @@ amount_made = round((time_worked * 5), 2)
 
 # print the results to the user as below
 print(f'Hello, you worked for {hours} hours, {minutes} minutes and made $ {amount_made}')
+
+# printing it out to an CSV file
+book = open('time_tracker_book.csv', "w", newline="")
+writer = csv.writer(book)
+
+# setting header for csv file
+writer.writerow(['Start Date', 'Start Time', 'Finish Date', 'Finish Time', 'Hours Worked', 'Amount Made'])
+
+# writing first row of data
+writer.writerow([start_date, start_time, stop_date, stop_time, time_worked, amount_made])
+book.close()
